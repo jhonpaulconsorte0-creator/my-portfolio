@@ -17,7 +17,7 @@ export default function Contact() {
 
   return (
     <div className="page container contact">
-      <span className="eyebrow"> contact</span>
+      <span className="eyebrow"> Contact</span>
       <h1>Contact</h1>
       <p className="contact-intro">
         If you want to know more, contact me.
@@ -34,7 +34,7 @@ export default function Contact() {
           <span className="contact-label">Contact Number: </span> +639105400932
         </div>
       </div>
-      
+
       {submitted ? (
         <div className="contact-success">
           <p>Thanks, {form.name || 'friend'} — message received (locally).</p>
@@ -45,7 +45,7 @@ export default function Contact() {
       ) : (
         <form className="contact-form" onSubmit={handleSubmit}>
           <label className="field">
-            <span className="field-label mono">name</span>
+            <span className="field-label mono">Name</span>
             <input
               type="text"
               name="name"
@@ -55,7 +55,7 @@ export default function Contact() {
             />
           </label>
           <label className="field">
-            <span className="field-label mono">email</span>
+            <span className="field-label mono">Email</span>
             <input
               type="email"
               name="email"
@@ -65,7 +65,7 @@ export default function Contact() {
             />
           </label>
           <label className="field">
-            <span className="field-label mono">message</span>
+            <span className="field-label mono">Message</span>
             <textarea
               name="message"
               rows="5"
