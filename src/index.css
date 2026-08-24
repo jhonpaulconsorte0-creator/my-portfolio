@@ -113,3 +113,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.about-intro {
+  max-width: 62ch;
+  font-size: 1.02rem;
+  text-align: Left;
+}
