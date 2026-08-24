@@ -25,16 +25,16 @@ export default function Contact() {
 
       <div className="contact-info mono">
         <div>
-          <span className="contact-label">email</span> jhonpaulconsorte0@gmail.com.com
+          <span className="contact-label">Email: </span> jhonpaulconsorte0@gmail.com.com
         </div>
         <div>
-          <span className="contact-label">github</span> https://github.com/jhonpaulconsorte0-creator/my-portfolio.git
+          <span className="contact-label">Github: </span> https://github.com/jhonpaulconsorte0-creator/my-portfolio.git
         </div>
         <div>
-          <span className="contact-label">contact number</span> 09105400932
+          <span className="contact-label">Contact Number: </span> +639105400932
         </div>
       </div>
-
+      
       {submitted ? (
         <div className="contact-success">
           <p>Thanks, {form.name || 'friend'} — message received (locally).</p>
